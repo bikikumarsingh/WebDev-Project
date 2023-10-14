@@ -1,7 +1,10 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
   font-family: Arial;
-  background-color: black;
+  background-color: rgb(246, 243, 243);
 }
 button{
   height: 65px;
@@ -16,6 +19,7 @@ button{
   cursor:pointer;
 
 }
+ 
 .oprator{
   background-color: orange;
 }
@@ -31,6 +35,10 @@ font-size: 17px;
 .container{
   /* text-align: center; */
   background-color: black;
-  padding: 20px;
-  margin: 20px;
+    /* display: flex; */
+/* justify-content: center; */
+    
+    
+  
+     
 }

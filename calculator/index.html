@@ -10,9 +10,9 @@
 
 <body>
   <div class="container">
-    <p class="js-display"></p>
+    <div class="js-display"></div>
    
-    <p>
+    <div>
       <button onclick="
       updateCalculation('1');
       ">1</button>
@@ -25,8 +25,8 @@
       <button class="oprator" onclick="
       updateCalculation(' + ');
       ">+</button>
-    </p>
-    <p>
+    </div>
+    <div>
       <button onclick="
       updateCalculation('4');
     ">4</button>
@@ -39,8 +39,8 @@
       <button class="oprator" onclick="
       updateCalculation(' - ');
       ">-</button>
-    </p>
-    <p>
+    </div>
+    <div>
       <button onclick="
       updateCalculation('7');
     ">7</button>
@@ -53,10 +53,10 @@
       <button class="oprator" onclick="
       updateCalculation(' * ');
       ">*</button>
-    </p>
+    </div>
     
 
-    <p>
+    <div>
       <button onclick="
       updateCalculation('+');
       ">0</button>
@@ -73,14 +73,14 @@
       <button class="oprator" onclick="
       updateCalculation(' / ');
       ">/</button>
-    </p>
-    <p>
+    </div>
+    <div>
       <button class="clear-button" onclick="
       calculation='';
       displayCalculation();
       localStorage.setItem('calculation',calculation);
       ">clear</button>
-    </p>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
