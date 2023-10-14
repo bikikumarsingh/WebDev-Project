@@ -1,0 +1,36 @@
+
+body{
+  font-family: Arial;
+  background-color: black;
+}
+button{
+  height: 65px;
+  width:65px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius:65px ;
+  color: white;
+  background-color: rgb(51,51,51);
+  cursor:pointer;
+
+}
+.oprator{
+  background-color: orange;
+}
+.js-display{
+  height: 50px;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.clear-button {
+font-size: 17px;
+}
+.container{
+  /* text-align: center; */
+  background-color: black;
+  padding: 20px;
+  margin: 20px;
+}
