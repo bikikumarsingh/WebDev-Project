@@ -1,19 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="stlye.css">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Todo list 1</h1>
-        <input type="text" id="input1"><button class="btn" id="btn1">add</button>
-        <h2>Todo list 2</h2>
-        <input type="text"> <input type="button" value="add">
-        <h3>Todo list 3</h3>
-        <input type="text"><input type="button" value="add"><input type="button" value="delete">
+  <div>
+    <p>Todo List Practice 1</p>
+    <input class="js-name-input" type="text" placeholder="Todo name">
+    <button class="js-add-button" onclick="
+      addtode();
+    ">Add</button>
+  </div>
+  <div>
+    <p>Todo Practice 2</p>
+    <input type="text" class="js-name-input-2" placeholder="Todo name">
+
+    <button class="js-add-button-2" onclick="
+      printTode();
+
+    ">Add</button>
+
+    <button onclick="
+    document.querySelector('.js-print-name').innerHTML='';
+    ">delete All</button>
+    <div class="js-print-name"></div>
+  </div>
+  <div class="container">
+    <h1>Todo List</h1>
+    <div class="todo-input-grid">
+      <input type="text" class="js-name-input-3 name-input" placeholder="Todo List">
+      <input type="date" class="js-date-input due-date-input">
+      <button class="add-todo-button ">Add</button>
+      <button class="delete-todo-button" type="reset" >Delete All</button>
     </div>
-    <script src="app.js"></script>
+    <div class="display-status"></div>
+    <div class="js-todo-list todo-grid"></div>
+  </div>
+  <script src="app.js"></script>
 </body>
+
 </html>
