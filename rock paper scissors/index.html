@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="stlye.css">
+    </head>
+    
+    <body>
+      <p class="title">Rock✊ Paper✋ Scissors✌️</p>
+      <button class="move-button js-rock-btn" >
+        <img src="img/rock-emoji.png" alt="rock" class="move-icon">
+      </button>
+    
+      <button class="move-button js-paper-btn" >
+        <img src="img/paper-emoji.png" alt="paper" class="move-icon">
+      </button>
+    
+      <button class="move-button js-scissors-btn">
+        <img src="img/scissors-emoji.png" alt="scissors" class="move-icon">
+      </button>
+    
+      <p class="result">Result: <span class="js-result result">You Win.</span></p>
+    
+      <!--move-->
+      <p class="js-moves moves-p">You
+        <img src="img/rock-emoji.png" alt="rock" class="moves-img">
+        -
+        <img src="img/scissors-emoji.png" alt="scissors" class="moves-img">
+        
+        Computer
+      </p>
+      <p class="js-score">Score</p>
+    
+      <button class="reset-button" onclick="
+          resetGame();
+        ">Reset Score</button>
+      <button class="js-auto-play auto-play-button" onclick="
+          autoPlay();
+        ">Auto Play</button>
+    
+      <script src="app.js"></script>
+  </body>
+</html>
